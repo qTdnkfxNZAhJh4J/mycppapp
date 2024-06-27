@@ -1,0 +1,131 @@
+{
+    "quiz": {
+        "total_points": 30,
+        "points_scored": 0,
+        "questions": [
+            {
+                "question": "Какой синтаксис используется для простой конструкции if в C++?",
+                "options": [
+                    "if (condition) { // code }",
+                    "if condition: // code",
+                    "if condition then // code",
+                    "if (condition): // code"
+                ],
+                "correct_answer": "if (condition) { // code }",
+                "points": 1,
+                "difficulty": "easy"
+            },
+            {
+                "question": "Какой оператор используется для альтернативного пути выполнения, если условие if ложно?",
+                "options": ["else", "otherwise", "elseif", "elif"],
+                "correct_answer": "else",
+                "points": 1,
+                "difficulty": "easy"
+            },
+            {
+                "question": "Какую конструкцию следует использовать для проверки нескольких условий последовательно?",
+                "options": ["switch", "if-else-if", "for", "while"],
+                "correct_answer": "if-else-if",
+                "points": 1,
+                "difficulty": "easy"
+            },
+            {
+                "question": "Какой из следующих вариантов является правильным синтаксисом для конструкции switch в C++?",
+                "options": [
+                    "switch (variable) { case 1: // code; break; }",
+                    "switch variable { case 1: // code; break; }",
+                    "switch (variable) case 1: // code; break;",
+                    "switch (variable) { case 1 // code break }"
+                ],
+                "correct_answer": "switch (variable) { case 1: // code; break; }",
+                "points": 2,
+                "difficulty": "medium"
+            },
+            {
+                "question": "Какой оператор используется для завершения выполнения текущего case в конструкции switch?",
+                "options": ["break", "exit", "end", "stop"],
+                "correct_answer": "break",
+                "points": 2,
+                "difficulty": "medium"
+            },
+            {
+                "question": "Какой результат выполнения следующего кода? \n\nint x = 10;\nif (x > 5) {\n    x = x + 5;\n} else {\n    x = x - 5;\n}\n// What is the value of x?",
+                "options": ["15", "5", "10", "0"],
+                "correct_answer": "15",
+                "points": 2,
+                "difficulty": "medium"
+            },
+            {
+                "question": "Какой ключевое слово используется для создания логического ветвления на основе значения переменной?",
+                "options": ["switch", "if", "for", "while"],
+                "correct_answer": "switch",
+                "points": 2,
+                "difficulty": "medium"
+            },
+            {
+                "question": "Какой из следующих примеров корректно использует тернарный оператор?",
+                "options": [
+                    "int x = (a > b) ? a : b;",
+                    "int x = a > b ? a b;",
+                    "int x = if (a > b) a : b;",
+                    "int x = a > b ? a, b;"
+                ],
+                "correct_answer": "int x = (a > b) ? a : b;",
+                "points": 3,
+                "difficulty": "hard"
+            },
+            {
+                "question": "Какой из следующих операторов можно использовать для проверки условий с несколькими вариантами в конструкции if?",
+                "options": ["&&", "||", "!", "=="],
+                "correct_answer": "||",
+                "points": 3,
+                "difficulty": "hard"
+            },
+            {
+                "question": "Что произойдет, если ни одно из условий в конструкции if-else-if не будет истинным и отсутствует блок else?",
+                "options": [
+                    "Будет выполнен первый блок if",
+                    "Будет выполнен последний блок else-if",
+                    "Ничего не произойдет",
+                    "Будет вызвана ошибка времени выполнения"
+                ],
+                "correct_answer": "Ничего не произойдет",
+                "points": 3,
+                "difficulty": "hard"
+            },
+            {
+                "question": "Какую конструкцию следует использовать для выбора одного из множества вариантов на основе значения целого числа?",
+                "options": ["switch", "if-else", "for", "while"],
+                "correct_answer": "switch",
+                "points": 3,
+                "difficulty": "hard"
+            },
+            {
+                "question": "Какой результат выполнения следующего кода? \n\nint x = 5;\nint y = (x > 10) ? 1 : 0;",
+                "options": ["1", "0", "5", "10"],
+                "correct_answer": "0",
+                "points": 3,
+                "difficulty": "hard"
+            },
+            {
+                "question": "Как можно проверить, является ли переменная x четным числом, используя конструкцию if?",
+                "options": [
+                    "if (x % 2 == 0)",
+                    "if (x / 2 == 0)",
+                    "if (x * 2 == 0)",
+                    "if (x - 2 == 0)"
+                ],
+                "correct_answer": "if (x % 2 == 0)",
+                "points": 3,
+                "difficulty": "hard"
+            },
+            {
+                "question": "Какую конструкцию следует использовать для выполнения кода в зависимости от нескольких условий, которые могут быть истинными одновременно?",
+                "options": ["if-else-if", "switch", "if с логическими операторами", "for"],
+                "correct_answer": "if с логическими операторами",
+                "points": 3,
+                "difficulty": "hard"
+            }
+        ]
+    }
+}

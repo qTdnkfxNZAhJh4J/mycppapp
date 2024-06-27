@@ -1,0 +1,163 @@
+{
+    "quiz": {
+        "total_points": 30,
+        "points_scored": 0,
+        "questions": [
+            {
+                "question": "Какой синтаксис используется для объявления функции в C++?",
+                "options": [
+                    "returnType functionName(parameters) { // code }",
+                    "function functionName(parameters) { // code }",
+                    "def functionName(parameters): // code",
+                    "functionName returnType(parameters) { // code }"
+                ],
+                "correct_answer": "returnType functionName(parameters) { // code }",
+                "points": 1,
+                "difficulty": "easy"
+            },
+            {
+                "question": "Каков тип возврата функции, которая не возвращает значение?",
+                "options": ["void", "int", "float", "null"],
+                "correct_answer": "void",
+                "points": 1,
+                "difficulty": "easy"
+            },
+            {
+                "question": "Как правильно вызвать функцию с именем `foo`, которая принимает два целых аргумента?",
+                "options": [
+                    "foo(2, 3);",
+                    "foo[2, 3];",
+                    "foo{2, 3};",
+                    "call foo(2, 3);"
+                ],
+                "correct_answer": "foo(2, 3);",
+                "points": 1,
+                "difficulty": "easy"
+            },
+            {
+                "question": "Какую директиву препроцессора необходимо использовать для предотвращения множественного включения одного и того же заголовочного файла?",
+                "options": [
+                    "#ifndef",
+                    "#include",
+                    "#pragma once",
+                    "#define"
+                ],
+                "correct_answer": "#ifndef",
+                "points": 1,
+                "difficulty": "easy"
+            },
+            {
+                "question": "Что такое перегрузка функции в C++?",
+                "options": [
+                    "Создание нескольких функций с одним и тем же именем, но разными параметрами",
+                    "Использование одной и той же функции в разных файлах",
+                    "Использование одной и той же функции для разных типов данных",
+                    "Создание функций внутри другой функции"
+                ],
+                "correct_answer": "Создание нескольких функций с одним и тем же именем, но разными параметрами",
+                "points": 1,
+                "difficulty": "easy"
+            },
+            {
+                "question": "Какой результат выполнения следующего кода?\n\nint add(int a, int b) {\n    return a + b;\n}\nint main() {\n    int result = add(3, 4);\n    cout << result;\n}",
+                "options": ["7", "12", "34", "Ошибка компиляции"],
+                "correct_answer": "7",
+                "points": 2,
+                "difficulty": "medium"
+            },
+            {
+                "question": "Как объявить функцию, которая принимает массив целых чисел и возвращает их сумму?",
+                "options": [
+                    "int sum(int array[], int size);",
+                    "int sum(array[], int size);",
+                    "int sum(int[] array, int size);",
+                    "int sum(int* array, int size);"
+                ],
+                "correct_answer": "int sum(int array[], int size);",
+                "points": 2,
+                "difficulty": "medium"
+            },
+            {
+                "question": "Какой результат выполнения следующего кода?\n\nvoid printMessage() {\n    cout << 'Hello, World!';\n}\nint main() {\n    printMessage();\n}",
+                "options": [
+                    "Hello, World!",
+                    "Ошибка компиляции",
+                    "Hello",
+                    "World"
+                ],
+                "correct_answer": "Hello, World!",
+                "points": 2,
+                "difficulty": "medium"
+            },
+            {
+                "question": "Что произойдет, если функция рекурсивно вызывает сама себя без условия выхода?",
+                "options": [
+                    "Программа зациклится до переполнения стека",
+                    "Функция выполнится один раз",
+                    "Программа завершится с ошибкой компиляции",
+                    "Функция выполнится дважды"
+                ],
+                "correct_answer": "Программа зациклится до переполнения стека",
+                "points": 2,
+                "difficulty": "medium"
+            },
+            {
+                "question": "Какой результат выполнения следующего кода?\n\nvoid updateValue(int& x) {\n    x = 10;\n}\nint main() {\n    int a = 5;\n    updateValue(a);\n    cout << a;\n}",
+                "options": ["10", "5", "0", "Ошибка компиляции"],
+                "correct_answer": "10",
+                "points": 2,
+                "difficulty": "medium"
+            },
+            {
+                "question": "Как правильно объявить функцию с переменным числом аргументов?",
+                "options": [
+                    "void foo(...);",
+                    "void foo(int a, ...);",
+                    "void foo(int ...args);",
+                    "void foo(int[] args);"
+                ],
+                "correct_answer": "void foo(int a, ...);",
+                "points": 3,
+                "difficulty": "hard"
+            },
+            {
+                "question": "Что произойдет, если забыть указать тип возврата функции?",
+                "options": [
+                    "Ошибка компиляции",
+                    "Функция вернет null",
+                    "Функция вернет 0",
+                    "Функция вернет мусорное значение"
+                ],
+                "correct_answer": "Ошибка компиляции",
+                "points": 3,
+                "difficulty": "hard"
+            },
+            {
+                "question": "Какой результат выполнения следующего кода?\n\nint factorial(int n) {\n    if (n == 0) return 1;\n    else return n * factorial(n - 1);\n}\nint main() {\n    cout << factorial(3);\n}",
+                "options": ["6", "3", "0", "Ошибка компиляции"],
+                "correct_answer": "6",
+                "points": 3,
+                "difficulty": "hard"
+            },
+            {
+                "question": "Как правильно определить функцию, возвращающую указатель на массив?",
+                "options": [
+                    "int* functionName();",
+                    "int(*functionName())[10];",
+                    "int& functionName();",
+                    "int functionName()[];"
+                ],
+                "correct_answer": "int(*functionName())[10];",
+                "points": 3,
+                "difficulty": "hard"
+            },
+            {
+                "question": "Какой результат выполнения следующего кода?\n\nint& getMax(int& a, int& b) {\n    return (a > b) ? a : b;\n}\nint main() {\n    int x = 5, y = 10;\n    getMax(x, y) = 15;\n    cout << x << ' ' << y;\n}",
+                "options": ["5 15", "15 10", "5 10", "10 15"],
+                "correct_answer": "5 15",
+                "points": 3,
+                "difficulty": "hard"
+            }
+        ]
+    }
+}

@@ -1,0 +1,123 @@
+{
+    "quiz": {
+        "total_points": 30,
+        "points_scored": 0,
+        "questions": [
+            {
+                "question": "Какой оператор используется для получения адреса переменной?",
+                "options": ["&", "*", "->", "%"],
+                "correct_answer": "&",
+                "points": 1,
+                "difficulty": "easy"
+            },
+            {
+                "question": "Какой оператор используется для разыменования указателя?",
+                "options": ["*", "&", "->", "%"],
+                "correct_answer": "*",
+                "points": 1,
+                "difficulty": "easy"
+            },
+            {
+                "question": "Как правильно объявить указатель на целое число?",
+                "options": ["int* p;", "int p*;", "*int p;", "p int*;"],
+                "correct_answer": "int* p;",
+                "points": 1,
+                "difficulty": "easy"
+            },
+            {
+                "question": "Что такое нулевой указатель?",
+                "options": [
+                    "Указатель, который указывает на адрес 0",
+                    "Указатель, который указывает на первую ячейку памяти",
+                    "Указатель, который указывает на переменную нулевого значения",
+                    "Указатель, который указывает на неинициализированную память"
+                ],
+                "correct_answer": "Указатель, который указывает на адрес 0",
+                "points": 1,
+                "difficulty": "easy"
+            },
+            {
+                "question": "Как правильно присвоить указателю адрес переменной?",
+                "options": [
+                    "int a = 5; int* p = &a;",
+                    "int a = 5; int* p = *a;",
+                    "int a = 5; int p = &a;",
+                    "int a = 5; int p = *a;"
+                ],
+                "correct_answer": "int a = 5; int* p = &a;",
+                "points": 1,
+                "difficulty": "easy"
+            },
+            {
+                "question": "Какой результат выполнения следующего кода?\n\nint a = 10;\nint* p = &a;\ncout << *p;",
+                "options": ["10", "Адрес переменной a", "Ошибка компиляции", "0"],
+                "correct_answer": "10",
+                "points": 2,
+                "difficulty": "medium"
+            },
+            {
+                "question": "Как правильно объявить массив указателей на целые числа?",
+                "options": ["int* array[10];", "int array*[10];", "int* array(10);", "int* array[] = 10;"],
+                "correct_answer": "int* array[10];",
+                "points": 2,
+                "difficulty": "medium"
+            },
+            {
+                "question": "Какой результат выполнения следующего кода?\n\nint a = 5;\nint b = 10;\nint* p = &a;\np = &b;\ncout << *p;",
+                "options": ["10", "5", "Адрес переменной a", "Адрес переменной b"],
+                "correct_answer": "10",
+                "points": 2,
+                "difficulty": "medium"
+            },
+            {
+                "question": "Что произойдет при попытке разыменовать нулевой указатель?",
+                "options": ["Программа завершится с ошибкой", "Программа вернет 0", "Программа вернет адрес 0", "Программа ничего не сделает"],
+                "correct_answer": "Программа завершится с ошибкой",
+                "points": 2,
+                "difficulty": "medium"
+            },
+            {
+                "question": "Какой результат выполнения следующего кода?\n\nint array[3] = {1, 2, 3};\nint* p = array;\np++;\ncout << *p;",
+                "options": ["2", "1", "3", "Ошибка компиляции"],
+                "correct_answer": "2",
+                "points": 2,
+                "difficulty": "medium"
+            },
+            {
+                "question": "Как правильно объявить указатель на указатель на целое число?",
+                "options": ["int** p;", "int p**;", "**int p;", "p int**;"],
+                "correct_answer": "int** p;",
+                "points": 3,
+                "difficulty": "hard"
+            },
+            {
+                "question": "Какой результат выполнения следующего кода?\n\nint a = 5;\nint* p1 = &a;\nint** p2 = &p1;\ncout << **p2;",
+                "options": ["5", "Адрес переменной a", "Адрес переменной p1", "Ошибка компиляции"],
+                "correct_answer": "5",
+                "points": 3,
+                "difficulty": "hard"
+            },
+            {
+                "question": "Как освободить память, выделенную под динамический массив?",
+                "options": ["delete[] p;", "free(p);", "delete p;", "release(p);"],
+                "correct_answer": "delete[] p;",
+                "points": 3,
+                "difficulty": "hard"
+            },
+            {
+                "question": "Какой результат выполнения следующего кода?\n\nint a = 5;\nint* p = &a;\n*p = 10;\ncout << a;",
+                "options": ["10", "5", "Адрес переменной a", "Ошибка компиляции"],
+                "correct_answer": "10",
+                "points": 3,
+                "difficulty": "hard"
+            },
+            {
+                "question": "Как правильно передать указатель на функцию в качестве аргумента другой функции?",
+                "options": ["void func(void (*f)());", "void func(void f());", "void func(*f)();", "void func(void *f());"],
+                "correct_answer": "void func(void (*f)());",
+                "points": 3,
+                "difficulty": "hard"
+            }
+        ]
+    }
+}

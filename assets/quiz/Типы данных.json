@@ -1,0 +1,113 @@
+{
+    "quiz": {
+        "total_points": 30,
+        "points_scored": 0,
+        "questions": [
+            {
+                "question": "Какой из следующих типов данных используется для хранения целых чисел в C++?",
+                "options": ["int", "float", "char", "double"],
+                "correct_answer": "int",
+                "points": 1,
+                "difficulty": "easy"
+            },
+            {
+                "question": "Какой тип данных используется для хранения символов в C++?",
+                "options": ["char", "string", "bool", "int"],
+                "correct_answer": "char",
+                "points": 1,
+                "difficulty": "easy"
+            },
+            {
+                "question": "Какой из следующих типов данных используется для хранения числа с плавающей точкой в C++?",
+                "options": ["float", "int", "char", "bool"],
+                "correct_answer": "float",
+                "points": 1,
+                "difficulty": "easy"
+            },
+            {
+                "question": "Какое ключевое слово используется для объявления переменной в C++?",
+                "options": ["var", "let", "int", "define"],
+                "correct_answer": "int",
+                "points": 1,
+                "difficulty": "easy"
+            },
+            {
+                "question": "Какой тип данных используется для хранения логических значений (true/false) в C++?",
+                "options": ["int", "char", "bool", "float"],
+                "correct_answer": "bool",
+                "points": 1,
+                "difficulty": "easy"
+            },
+            {
+                "question": "Какое значение инициализирует переменную типа int, если ей не присвоено никакого значения?",
+                "options": ["0", "1", "undefined", "null"],
+                "correct_answer": "0",
+                "points": 2,
+                "difficulty": "medium"
+            },
+            {
+                "question": "Какой из следующих типов данных имеет наибольший диапазон значений в C++?",
+                "options": ["int", "float", "double", "long long"],
+                "correct_answer": "long long",
+                "points": 2,
+                "difficulty": "medium"
+            },
+            {
+                "question": "Какой спецификатор используется для обозначения беззнакового целого числа в C++?",
+                "options": ["unsigned", "signed", "int", "float"],
+                "correct_answer": "unsigned",
+                "points": 2,
+                "difficulty": "medium"
+            },
+            {
+                "question": "Какой из следующих операторов используется для присваивания значения переменной в C++?",
+                "options": ["=", "==", ":", "::"],
+                "correct_answer": "=",
+                "points": 2,
+                "difficulty": "medium"
+            },
+            {
+                "question": "Какой тип данных используется для хранения строк в C++?",
+                "options": ["string", "char", "bool", "float"],
+                "correct_answer": "string",
+                "points": 2,
+                "difficulty": "medium"
+            },
+            {
+                "question": "Каким будет результат выполнения следующего кода: `int x = 5; x += 3;`?",
+                "options": ["5", "3", "8", "7"],
+                "correct_answer": "8",
+                "points": 3,
+                "difficulty": "hard"
+            },
+            {
+                "question": "Какой оператор используется для получения адреса переменной в C++?",
+                "options": ["&", "*", "#", "@"],
+                "correct_answer": "&",
+                "points": 3,
+                "difficulty": "hard"
+            },
+            {
+                "question": "Что произойдет, если превысить диапазон значений типа данных int в C++?",
+                "options": ["Ошибка компиляции", "Ошибка времени выполнения", "Переполнение", "Значение будет обнулено"],
+                "correct_answer": "Переполнение",
+                "points": 3,
+                "difficulty": "hard"
+            },
+            {
+                "question": "Какой тип данных можно использовать для хранения значения true/false в C++?",
+                "options": ["int", "bool", "float", "char"],
+                "correct_answer": "bool",
+                "points": 3,
+                "difficulty": "hard"
+            },
+            {
+                "question": "Какая разница между типами данных float и double в C++?",
+                "options": ["float имеет меньшую точность и меньший размер", "float имеет большую точность и меньший размер", "double имеет меньшую точность и больший размер", "Нет никакой разницы"],
+                "correct_answer": "float имеет меньшую точность и меньший размер",
+                "points": 3,
+                "difficulty": "hard"
+            }
+        ]
+    }
+}

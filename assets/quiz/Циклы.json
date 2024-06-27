@@ -1,0 +1,128 @@
+{
+    "quiz": {
+        "total_points": 30,
+        "points_scored": 0,
+        "questions": [
+            {
+                "question": "Какой из следующих операторов используется для цикла с предусловием в C++?",
+                "options": ["while", "for", "do-while", "loop"],
+                "correct_answer": "while",
+                "points": 1,
+                "difficulty": "easy"
+            },
+            {
+                "question": "Какой из следующих циклов выполняется хотя бы один раз, даже если условие ложно с самого начала?",
+                "options": ["do-while", "for", "while", "foreach"],
+                "correct_answer": "do-while",
+                "points": 1,
+                "difficulty": "easy"
+            },
+            {
+                "question": "Какой синтаксис используется для объявления цикла for в C++?",
+                "options": [
+                    "for (initialization; condition; increment) { // code }",
+                    "for (initialization, condition, increment) { // code }",
+                    "for initialization; condition; increment { // code }",
+                    "for (initialization; condition) { // code }"
+                ],
+                "correct_answer": "for (initialization; condition; increment) { // code }",
+                "points": 1,
+                "difficulty": "easy"
+            },
+            {
+                "question": "Какой оператор используется для выхода из цикла до его естественного завершения?",
+                "options": ["break", "exit", "stop", "end"],
+                "correct_answer": "break",
+                "points": 1,
+                "difficulty": "easy"
+            },
+            {
+                "question": "Какой оператор используется для перехода к следующей итерации цикла, пропуская оставшуюся часть кода в текущей итерации?",
+                "options": ["continue", "next", "skip", "pass"],
+                "correct_answer": "continue",
+                "points": 1,
+                "difficulty": "easy"
+            },
+            {
+                "question": "Какой результат выполнения следующего кода?\n\nint sum = 0;\nfor (int i = 1; i <= 5; i++) {\n    sum += i;\n}\n// What is the value of sum?",
+                "options": ["15", "10", "5", "20"],
+                "correct_answer": "15",
+                "points": 2,
+                "difficulty": "medium"
+            },
+            {
+                "question": "Какой из следующих циклов используется для итерации по коллекции или массиву?",
+                "options": ["foreach", "while", "for", "do-while"],
+                "correct_answer": "for",
+                "points": 2,
+                "difficulty": "medium"
+            },
+            {
+                "question": "Какой результат выполнения следующего кода?\n\nint x = 0;\nwhile (x < 3) {\n    x++;\n}\n// What is the value of x?",
+                "options": ["3", "2", "1", "0"],
+                "correct_answer": "3",
+                "points": 2,
+                "difficulty": "medium"
+            },
+            {
+                "question": "Какой результат выполнения следующего кода?\n\nint x = 0;\ndo {\n    x++;\n} while (x < 0);\n// What is the value of x?",
+                "options": ["1", "0", "2", "Infinite loop"],
+                "correct_answer": "1",
+                "points": 2,
+                "difficulty": "medium"
+            },
+            {
+                "question": "Какую конструкцию следует использовать для бесконечного цикла?",
+                "options": [
+                    "while (true) { // code }",
+                    "for ( ; ; ) { // code }",
+                    "do { // code } while (true);",
+                    "Все вышеперечисленные"
+                ],
+                "correct_answer": "Все вышеперечисленные",
+                "points": 2,
+                "difficulty": "medium"
+            },
+            {
+                "question": "Какой результат выполнения следующего кода?\n\nfor (int i = 0; i < 5; i++) {\n    if (i == 3) {\n        break;\n    }\n}\n// What is the value of i after the loop?",
+                "options": ["3", "4", "5", "2"],
+                "correct_answer": "3",
+                "points": 3,
+                "difficulty": "hard"
+            },
+            {
+                "question": "Какой результат выполнения следующего кода?\n\nfor (int i = 0; i < 5; i++) {\n    if (i == 3) {\n        continue;\n    }\n    // code\n}\n// How many times will the code inside the loop be executed?",
+                "options": ["4", "5", "3", "2"],
+                "correct_answer": "4",
+                "points": 3,
+                "difficulty": "hard"
+            },
+            {
+                "question": "Какой результат выполнения следующего кода?\n\nint i = 0;\nfor ( ; i < 10; i++) {\n    // code\n}\n// What is the value of i after the loop?",
+                "options": ["10", "9", "11", "10 or more"],
+                "correct_answer": "10",
+                "points": 3,
+                "difficulty": "hard"
+            },
+            {
+                "question": "Какую конструкцию следует использовать для выхода из вложенного цикла?",
+                "options": [
+                    "break в сочетании с меткой",
+                    "continue",
+                    "exit",
+                    "return"
+                ],
+                "correct_answer": "break в сочетании с меткой",
+                "points": 3,
+                "difficulty": "hard"
+            },
+            {
+                "question": "Какой результат выполнения следующего кода?\n\nint i = 0;\nwhile (i++ < 5) {\n    // code\n}\n// How many times will the code inside the loop be executed?",
+                "options": ["5", "4", "6", "Infinite loop"],
+                "correct_answer": "5",
+                "points": 3,
+                "difficulty": "hard"
+            }
+        ]
+    }
+}

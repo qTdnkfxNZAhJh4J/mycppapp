@@ -1,0 +1,148 @@
+{
+    "quiz": {
+        "total_points": 30,
+        "points_scored": 0,
+        "questions": [
+            {
+                "question": "Какой синтаксис используется для объявления массива из 10 целых чисел в C++?",
+                "options": [
+                    "int array[10];",
+                    "int array(10);",
+                    "int array = new int[10];",
+                    "int array[] = 10;"
+                ],
+                "correct_answer": "int array[10];",
+                "points": 1,
+                "difficulty": "easy"
+            },
+            {
+                "question": "Какой индекс имеет первый элемент массива в C++?",
+                "options": ["0", "1", "-1", "Зависит от типа данных"],
+                "correct_answer": "0",
+                "points": 1,
+                "difficulty": "easy"
+            },
+            {
+                "question": "Как правильно инициализировать массив из 5 элементов?",
+                "options": [
+                    "int array[5] = {1, 2, 3, 4, 5};",
+                    "int array = {1, 2, 3, 4, 5};",
+                    "int array[5] = (1, 2, 3, 4, 5);",
+                    "int array[5] = [1, 2, 3, 4, 5];"
+                ],
+                "correct_answer": "int array[5] = {1, 2, 3, 4, 5};",
+                "points": 1,
+                "difficulty": "easy"
+            },
+            {
+                "question": "Какой из следующих циклов чаще всего используется для итерации по элементам массива?",
+                "options": ["for", "while", "do-while", "foreach"],
+                "correct_answer": "for",
+                "points": 1,
+                "difficulty": "easy"
+            },
+            {
+                "question": "Что произойдет, если попытаться обратиться к элементу массива за его пределами?",
+                "options": [
+                    "Ошибка компиляции",
+                    "Ошибка времени выполнения",
+                    "Неопределенное поведение",
+                    "Элемент будет обнулен"
+                ],
+                "correct_answer": "Неопределенное поведение",
+                "points": 1,
+                "difficulty": "easy"
+            },
+            {
+                "question": "Какой результат выполнения следующего кода?\n\nint array[3] = {1, 2, 3};\ncout << array[1];",
+                "options": ["1", "2", "3", "Ошибка компиляции"],
+                "correct_answer": "2",
+                "points": 2,
+                "difficulty": "medium"
+            },
+            {
+                "question": "Как узнать размер массива в C++?",
+                "options": [
+                    "sizeof(array) / sizeof(array[0])",
+                    "size(array)",
+                    "length(array)",
+                    "array.size()"
+                ],
+                "correct_answer": "sizeof(array) / sizeof(array[0])",
+                "points": 2,
+                "difficulty": "medium"
+            },
+            {
+                "question": "Каков результат выполнения следующего кода?\n\nint array[5] = {0};\nfor (int i = 0; i < 5; i++) {\n    array[i] = i * 2;\n}\ncout << array[3];",
+                "options": ["0", "2", "4", "6"],
+                "correct_answer": "6",
+                "points": 2,
+                "difficulty": "medium"
+            },
+            {
+                "question": "Как правильно объявить двумерный массив из 3 строк и 4 столбцов?",
+                "options": [
+                    "int array[3][4];",
+                    "int array[4][3];",
+                    "int array = new int[3][4];",
+                    "int array = int[3][4];"
+                ],
+                "correct_answer": "int array[3][4];",
+                "points": 2,
+                "difficulty": "medium"
+            },
+            {
+                "question": "Какой результат выполнения следующего кода?\n\nint array[2][2] = {{1, 2}, {3, 4}};\ncout << array[1][0];",
+                "options": ["1", "2", "3", "4"],
+                "correct_answer": "3",
+                "points": 2,
+                "difficulty": "medium"
+            },
+            {
+                "question": "Что делает следующий код?\n\nint array[5] = {1, 2, 3, 4, 5};\nint *p = array;\ncout << *(p + 2);",
+                "options": ["1", "2", "3", "4"],
+                "correct_answer": "3",
+                "points": 3,
+                "difficulty": "hard"
+            },
+            {
+                "question": "Какой результат выполнения следующего кода?\n\nint array[3] = {1, 2, 3};\nint sum = 0;\nfor (int i = 0; i < 3; i++) {\n    sum += array[i];\n}\ncout << sum;",
+                "options": ["3", "6", "9", "Ошибка компиляции"],
+                "correct_answer": "6",
+                "points": 3,
+                "difficulty": "hard"
+            },
+            {
+                "question": "Как создать динамический массив из 10 целых чисел?",
+                "options": [
+                    "int* array = new int[10];",
+                    "int array[10];",
+                    "int array = int[10];",
+                    "int array = new int(10);"
+                ],
+                "correct_answer": "int* array = new int[10];",
+                "points": 3,
+                "difficulty": "hard"
+            },
+            {
+                "question": "Как правильно удалить динамический массив в C++?",
+                "options": [
+                    "delete[] array;",
+                    "delete array;",
+                    "free(array);",
+                    "array.delete();"
+                ],
+                "correct_answer": "delete[] array;",
+                "points": 3,
+                "difficulty": "hard"
+            },
+            {
+                "question": "Какой результат выполнения следующего кода?\n\nint array[4] = {1, 2, 3, 4};\nint *p = &array[1];\ncout << *(p + 1);",
+                "options": ["1", "2", "3", "4"],
+                "correct_answer": "3",
+                "points": 3,
+                "difficulty": "hard"
+            }
+        ]
+    }
+}

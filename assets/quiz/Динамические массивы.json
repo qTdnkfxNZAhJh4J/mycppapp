@@ -1,0 +1,163 @@
+{
+    "quiz": {
+        "total_points": 30,
+        "points_scored": 0,
+        "questions": [
+            {
+                "question": "Какой оператор используется для выделения памяти под динамический массив?",
+                "options": ["new", "malloc", "calloc", "alloc"],
+                "correct_answer": "new",
+                "points": 1,
+                "difficulty": "easy"
+            },
+            {
+                "question": "Как правильно объявить динамический массив из 10 целых чисел?",
+                "options": [
+                    "int* arr = new int[10];",
+                    "int arr[10] = new int;",
+                    "int* arr = malloc(10 * sizeof(int));",
+                    "int* arr = new int(10);"
+                ],
+                "correct_answer": "int* arr = new int[10];",
+                "points": 1,
+                "difficulty": "easy"
+            },
+            {
+                "question": "Как освободить память, выделенную под динамический массив?",
+                "options": ["delete[] arr;", "free(arr);", "delete arr;", "release(arr);"],
+                "correct_answer": "delete[] arr;",
+                "points": 1,
+                "difficulty": "easy"
+            },
+            {
+                "question": "Что произойдет, если попытаться обратиться к элементу динамического массива за его пределами?",
+                "options": [
+                    "Неопределенное поведение",
+                    "Ошибка компиляции",
+                    "Элемент будет обнулен",
+                    "Ошибка времени выполнения"
+                ],
+                "correct_answer": "Неопределенное поведение",
+                "points": 1,
+                "difficulty": "easy"
+            },
+            {
+                "question": "Как правильно инициализировать динамический массив значениями по умолчанию?",
+                "options": [
+                    "int* arr = new int[10]();",
+                    "int* arr = new int[10]{};",
+                    "int* arr = new int ;",
+                    "int* arr = new int[10]{0};"
+                ],
+                "correct_answer": "int* arr = new int[10]();",
+                "points": 1,
+                "difficulty": "easy"
+            },
+            {
+                "question": "Как правильно объявить двумерный динамический массив из 3 строк и 4 столбцов?",
+                "options": [
+                    "int** arr = new int*[3]; for(int i = 0; i < 3; i++) arr[i] = new int[4];",
+                    "int** arr = new int[3][4];",
+                    "int* arr = new int[3*4];",
+                    "int arr[3][4] = new int;"
+                ],
+                "correct_answer": "int** arr = new int*[3]; for(int i = 0; i < 3; i++) arr[i] = new int[4];",
+                "points": 2,
+                "difficulty": "medium"
+            },
+            {
+                "question": "Какой результат выполнения следующего кода?\n\nint* arr = new int[3]{1, 2, 3};\ncout << arr[1];",
+                "options": ["2", "1", "3", "Ошибка компиляции"],
+                "correct_answer": "2",
+                "points": 2,
+                "difficulty": "medium"
+            },
+            {
+                "question": "Как правильно удалить двумерный динамический массив, созданный следующим образом?\n\nint** arr = new int*[3];\nfor(int i = 0; i < 3; i++) arr[i] = new int[4];",
+                "options": [
+                    "for(int i = 0; i < 3; i++) delete[] arr[i]; delete[] arr;",
+                    "delete[] arr;",
+                    "for(int i = 0; i < 3; i++) delete arr[i]; delete arr;",
+                    "delete arr;"
+                ],
+                "correct_answer": "for(int i = 0; i < 3; i++) delete[] arr[i]; delete[] arr;",
+                "points": 2,
+                "difficulty": "medium"
+            },
+            {
+                "question": "Какой результат выполнения следующего кода?\n\nint n = 5;\nint* arr = new int[n];\nfor(int i = 0; i < n; i++) arr[i] = i;\ncout << arr[3];",
+                "options": ["3", "0", "5", "Ошибка компиляции"],
+                "correct_answer": "3",
+                "points": 2,
+                "difficulty": "medium"
+            },
+            {
+                "question": "Как можно изменить размер динамического массива в C++?",
+                "options": [
+                    "Выделить новый массив и скопировать старые значения",
+                    "Использовать realloc",
+                    "Изменить размер напрямую",
+                    "Массивы в C++ не поддерживают изменение размера"
+                ],
+                "correct_answer": "Выделить новый массив и скопировать старые значения",
+                "points": 2,
+                "difficulty": "medium"
+            },
+            {
+                "question": "Какой результат выполнения следующего кода?\n\nint* arr = new int[2]{10, 20};\narr = new int[3]{1, 2, 3};\ncout << arr[1];",
+                "options": ["2", "10", "20", "Ошибка компиляции"],
+                "correct_answer": "2",
+                "points": 3,
+                "difficulty": "hard"
+            },
+            {
+                "question": "Как правильно объявить и инициализировать динамический массив указателей на целые числа?",
+                "options": [
+                    "int** arr = new int*[10];",
+                    "int* arr = new int*[10];",
+                    "int** arr = new int[10];",
+                    "int* arr = new int[10];"
+                ],
+                "correct_answer": "int** arr = new int*[10];",
+                "points": 3,
+                "difficulty": "hard"
+            },
+            {
+                "question": "Что произойдет при попытке удалить один и тот же указатель дважды?",
+                "options": [
+                    "Неопределенное поведение",
+                    "Ошибка компиляции",
+                    "Память будет освобождена дважды",
+                    "Ничего не произойдет"
+                ],
+                "correct_answer": "Неопределенное поведение",
+                "points": 3,
+                "difficulty": "hard"
+            },
+            {
+                "question": "Какой результат выполнения следующего кода?\n\nint* arr = new int[3]{1, 2, 3};\ndelete[] arr;\ncout << arr[1];",
+                "options": [
+                    "Неопределенное поведение",
+                    "2",
+                    "Ошибка компиляции",
+                    "0"
+                ],
+                "correct_answer": "Неопределенное поведение",
+                "points": 3,
+                "difficulty": "hard"
+            },
+            {
+                "question": "Как правильно объявить и инициализировать динамический массив строк (массив указателей на char)?",
+                "options": [
+                    "char** arr = new char*[10];",
+                    "char* arr = new char*[10];",
+                    "char arr[10] = new char;",
+                    "char* arr[10] = new char;"
+                ],
+                "correct_answer": "char** arr = new char*[10];",
+                "points": 3,
+                "difficulty": "hard"
+            }
+        ]
+    }
+}
